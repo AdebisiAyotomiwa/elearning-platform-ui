@@ -1,0 +1,84 @@
+:root {
+  --bs-primary: #ff9500;
+  --bs-primary-rgb: 255, 149, 0;
+  --border: #e8e8e8;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background: #f7f7f7;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+
+.announce-bar {
+  background: var(--orange);
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 320px) {
+  .announce-bar {
+    font-size: 12px;
+  }
+  .t-name {
+    font-size: 12px;
+  }
+}
+
+.logo-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.logos-strip {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+
+.logo-item {
+  min-width: 100px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--border);
+}
+
+.logo-item img {
+  max-width: 100px;
+  /* max-height: 40px; */
+  width: auto;
+  height: auto;
+}
+
+.faq-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff4e5;
+  border-radius: 0.5rem;
+}
+
+.icon-close {
+  display: none;
+}
+details[open] .icon-plus {
+  display: none;
+}
+details[open] .icon-close {
+  display: block;
+}
+
+
+.fs-7{font-size: 0.7rem;}

@@ -1,0 +1,73 @@
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+
+:root {
+  --bs-primary: #ff9500;
+  --bs-primary-rgb: 255, 149, 0;
+}
+
+
+.form-control:focus {
+  border-color: #ff9500;
+  box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.2);
+}
+
+/* Checkbox turns orange when checked */
+.form-check-input:checked {
+  background-color: #ff9500;
+  border-color: #ff9500;
+}
+
+/*
+  Password eye icon sits inside the input field.
+  Bootstrap has no utility for this specific layout,
+  so these 5 lines are necessary.
+*/
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper input {
+  padding-right: 44px;
+}
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+/* Orange focus ring on inputs */
+.form-control:focus {
+  border-color: #ff9500;
+  box-shadow: 0 0 0 3px rgba(255, 149, 0, 0.2);
+}
+.form-check-input:checked {
+  background-color: #ff9500;
+  border-color: #ff9500;
+}
+
+@media (max-width: 320px) {
+  .announce-bar {
+    font-size: 12px;
+  }
+  .t-name {
+    font-size: 12px;
+  }
+}
+
+.testimonial-carousel .carousel-item {
+  display: flex;
+  align-items: stretch;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
