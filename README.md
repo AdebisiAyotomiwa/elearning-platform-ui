@@ -122,38 +122,6 @@ As the design file is privately managed by the course, it is **not included in t
 
 ---
 
-## Login Page
-
-### Original Figma Design
-
-![Login Figma Design](assets/images/screenshots/Login-Figma.png)
-
-### Desktop Preview
-
-![Login Desktop](assets/images/screenshots/Login-desktop-preview.png)
-
-### Mobile Preview
-
-![Login Mobile](assets/images/screenshots/Login-mobile-preview.png)
-
----
-
-## Sign Up Page
-
-### Original Figma Design
-
-![Signup Figma Design](assets/images/screenshots/SignUp-Figma.png)
-
-### Desktop Preview
-
-![Signup Desktop](assets/images/screenshots/SignUp-desktop-preview.png)
-
-### Mobile Preview
-
-![Signup Mobile](assets/images/screenshots/SignUp-mobile-preview.png)
-
----
-
 ## 🌐 Live Demo
 
 GitHub Pages:
