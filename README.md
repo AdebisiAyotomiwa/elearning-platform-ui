@@ -158,7 +158,7 @@ As the design file is privately managed by the course, it is **not included in t
 
 GitHub Pages:
 
-> *(Deployment link will be added after publishing.)*
+> *(https://elearning-platform-ui.vercel.app/)*
 
 ---
 
